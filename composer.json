@@ -1,0 +1,24 @@
+{
+    "name": "grandmasterxxx/yii2-firestore",
+    "description": "A Yii2 Component that connects to Google Firestore",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GrandMasterX",
+            "email": "zgrandmasterz@gmail.com",
+            "homepage": "https://github.com/GrandMasterXXX"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "grandmasterxxx\\yii2firestore\\": "src/"
+        }
+    },
+    "require": {
+        "google/cloud": "^0.66.0",
+        "google/protobuf": "^v3.3.0",
+        "grpc/grpc": "^v1.1.0",
+		"kreait/firebase-php": "^4.0"
+    }
+}
